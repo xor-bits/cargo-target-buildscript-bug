@@ -8,7 +8,7 @@ edition = "2021"
 [dependencies.crossbeam]
 version = "0.8"
 default-features = false
-features = ["alloc"]
 
-[build-dependencies]
-image = "0.24"
+[build-dependencies.crossbeam]
+version = "0.8"
+default-features = true
